@@ -1,0 +1,11 @@
+AllCops:
+  Exclude:
+    - 'git_queue.gemspec'
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'Gemfile.lock'
+    - 'test/**/*'
+    - 'tmp/**/*'
+
+StringLiterals:
+  EnforcedStyle: double_quotes
